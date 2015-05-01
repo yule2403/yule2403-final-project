@@ -1,0 +1,947 @@
+/* CSS Document  */
+
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip-text {
+    background-color: rgba(0, 0, 0, .7);    
+    color: white;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+}
+
+.body-container {
+  margin-top: 3.95% !important;
+  position: relative;
+}
+
+.horizontal-line {
+  border: 1px solid #353650;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+.Header {
+	background-image: url(../img/lines_background.jpg);
+}
+
+	
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+	img {
+ 	 width: 80px;
+  	 height: auto;
+   	 margin-top:30px; 
+  	 margin-left:40px; 
+	 }
+	
+	.Tittle {
+	font-family: 'Lobster', cursive,bold;
+	text-align:center;
+	color: #000; 
+	font-size: 2.0pc;
+	margin-top:0px;  
+	}
+	
+	.Sub-Tittle {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 0.9pc;
+	}
+
+	
+	.Tittle-section  {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 0.8pc;
+	margin-top:10px;
+	}
+	
+	.life-section {
+	width: auto;
+   	height: 600px;
+	background-color: #CC9;
+	position:relative;
+	margin-top:-120;
+	}
+	
+	.box-skills, welcome-section{
+   	width: 130px;
+   	height: 100px;
+   	border:1px;
+   	background-color: #CCC;
+	margin-top:40;
+	margin-left: 40;
+	margin-bottom:20;
+   	border:2px solid black;
+	float:left;
+	}
+	
+	
+   p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 9px;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+   .skills-list {
+	font-family: 'Roboto slab', sans-serif;
+	font-size: 9px;
+	text-align: left;
+	color: #000;
+	font-weight: bold;	
+	margin-top:-10;
+	}
+	
+	ul { 
+	display:table; margin:0 auto;
+	margin-top:20;}
+	
+	.quote {
+	font-family: 'Lobster', cursive,bold;
+	font-size: 0.9pc;
+	text-align: center;
+	}
+	
+	a:hover {
+    color: #606; 
+	}
+
+	
+	.box-contact {
+   	width: 150px;
+   	height: 170px;
+   	border:1px;
+	margin-top: 80;
+   	margin-left: 100;
+   	background-color: #CCC;
+   	border:2px solid black;
+	} 
+	
+
+  #form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:20px;
+    width: 150px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:100px;
+    margin-left: -260px;
+  }
+	
+	 .contact-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 8px;
+    line-height: 10px;
+    background-color: #fbfbfb;
+    padding: 1px 1px 1px 1px;
+    margin-bottom: 1px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+  }
+	
+	 textarea {
+      width: 100%;
+      height: 40px;
+      line-height: 100%;
+      resize:vertical;
+  }
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+  background-color:white;
+  }
+
+
+  #button-send{
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
+    border: #fbfbfb solid 1px;
+    cursor:pointer;
+    background-color: #939;
+    color:white;
+    font-size:9px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-top:-8px;
+	margin-left:100px;
+	text-align:center;
+    font-weight:700;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 3px 0px rgba(128,0,128,1);
+	-moz-box-shadow: 0px 3px 0px rgba (128,0,128,1);
+	box-shadow: 0px 3px 0px rgba (128,0,128,1);
+	}
+
+   #button-send:hover {
+    margin-top: 0.75px;
+	background-color: #969;
+	}
+	
+	.social {
+	width: 20;
+	height:auto;
+    margin-left:10px;
+	margin-top: 0px;
+	}
+	
+	.bot-p {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align: start;
+	font-size: 0.6pc;
+	margin-top:20px;
+	}
+  
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+	
+	img {
+ 	 width: 120px;
+  	 height: auto;
+   	 margin-top:40px; 
+  	 margin-left:60px; 
+	 }
+	
+	.Tittle {
+	font-family: 'Lobster', cursive,bold;
+	text-align:center;
+	color: #000; 
+	font-size: 2.6pc;
+	margin-top:0px;  
+	}
+	
+	.Sub-Tittle {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 1.1pc;
+	}
+
+	
+	.Tittle-section  {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 1.1pc;
+	margin-top:50px;
+	}
+	
+	.life-section {
+	width: auto;
+   	height: 500px;
+	background-color: #CC9;
+	position:relative;
+	margin-top:-120;
+	}
+	
+	.box-skills, welcome-section{
+   	width: 200px;
+   	height: 180px;
+   	border:1px;
+   	background-color: #CCC;
+	margin-top:40;
+	margin-left: 40;
+	margin-bottom:20;
+   	border:2px solid black;
+	float:left;
+	}
+	
+	
+   p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+   .skills-list {
+	font-family: 'Roboto slab', sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: #000;
+	font-weight: bold;	
+	}
+	
+	ul { 
+	display:table; margin:0 auto;
+	margin-top:20;}
+	
+	.quote {
+	font-family: 'Lobster', cursive,bold;
+	font-size: 1.0pc;
+	text-align: center;
+	}
+	
+	a:hover {
+    color: #606; 
+	}
+	
+	.contactme {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #000;
+	font-weight: bold;
+	}
+	
+	.box-contact {
+   	width: 220px;
+   	height: 200px;
+   	border:1px;
+	margin-top: 50;
+   	margin-left: 90;
+   	background-color: #CCC;
+   	border:2px solid black;
+	} 
+	
+
+  #form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:50px;
+    width: 200px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:50px;
+    margin-left: -260px;
+  }
+	
+	 .contact-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 10px;
+    line-height: 14px;
+    background-color: #fbfbfb;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 3px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+  }
+	
+	 textarea {
+      width: 85%;
+      height: 40px;
+      line-height: 100%;
+      resize:vertical;
+  }
+  
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+  background-color:white;
+  }
+
+
+  #button-send{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 30%;
+    border: #fbfbfb solid 1px;
+    cursor:pointer;
+    background-color: #939;
+    color:white;
+    font-size:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-top:-8px;
+	margin-left:100px;
+	text-align:center;
+    font-weight:700;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 5px 0px rgba(128,0,128,1);
+	-moz-box-shadow: 0px 5px 0px rgba (128,0,128,1);
+	box-shadow: 0px 5px 0px rgba (128,0,128,1);
+	}
+
+   #button-send:hover {
+    margin-top: 0.75px;
+	background-color: #969;
+	}
+	
+	.social {
+	width: 30;
+	height:auto;
+    margin-left:40px;
+	margin-top: 0px;
+	}
+	
+	.bot-p {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align: start;
+	font-size: 0.8pc;
+	margin-top:20px;
+	}
+  
+  
+}	
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+    img {
+ 	 width: 150px;
+  	 height: auto;
+   	 margin-top:60px; 
+  	 margin-left:100px; 
+	 }
+
+	.Tittle {
+	font-family: 'Lobster', cursive,bold;
+	text-align:center;
+	color: #000; 
+	font-size: 3.0pc;
+	margin-top:0px;  
+	}
+	
+	.Sub-Tittle {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 1.7pc;
+	}
+
+
+  .Tittle-section  {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 1.4pc;
+	margin-top:50px;
+	}
+	
+	.life-section {
+	width: auto;
+   	height: 700px;
+	background-color: #CC9;
+	position:relative;
+	margin-top:-100;
+	}
+	
+	.box-skills, welcome-section{
+   	width: 420px;
+   	height: 260px;
+   	border:1px;
+   	background-color: #CCC;
+	margin-top:40;
+	margin-left: 40;
+	margin-bottom:20;
+   	border:2px solid black;
+	float:left;
+	}
+	
+	
+   p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+   .skills-list {
+	font-family: 'Roboto slab', sans-serif;
+	font-size: 16px;
+	text-align: left;
+	color: #000;
+	font-weight: bold;	
+	}
+	
+	ul { 
+	display:table; margin:0 auto;
+	margin-top:20;}
+	
+	.quote {
+	font-family: 'Lobster', cursive,bold;
+	font-size: 1.4pc;
+	text-align: center;
+	}
+   
+     a:hover {
+    color: #606; 
+	}
+  	
+	
+	.box-contact {
+   	width: 300px;
+   	height: 250px;
+   	border:1px;
+	margin-top: 90;
+   	margin-left: 200;
+   	background-color: #CCC;
+   	border:2px solid black;
+	} 
+	
+
+  #form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:30px;
+    margin-left: -260px;
+  }
+	
+	 .contact-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #fbfbfb;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 3px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+  }
+	
+	 textarea {
+      width: 85%;
+      height: 60px;
+      line-height: 100%;
+      resize:vertical;
+  }
+  
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+  background-color:white;
+  }
+
+
+  #button-send{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 30%;
+    border: #fbfbfb solid 1px;
+    cursor:pointer;
+    background-color: #939;
+    color:white;
+    font-size:13px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:-8px;
+	margin-left:100px;
+	text-align:center;
+    font-weight:700;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 6px 0px rgba(128,0,128,1);
+	-moz-box-shadow: 0px 6px 0px rgba (128,0,128,1);
+	box-shadow: 0px 6px 0px rgba (128,0,128,1);
+	}
+
+   #button-send:hover {
+    margin-top: 0.75px;
+	background-color: #969;
+	}
+	
+	.social {
+	width: 40;
+	height:auto;
+    margin-left:40px;
+	margin-top: 0px;
+	}
+	
+	.bot-p {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align: start;
+	font-size: 1.0pc;
+	margin-top:20px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+	img {
+ 	 width: 200px;
+  	 height: auto;
+   	 margin-top:60px; 
+  	 margin-left:100px; 
+	 }
+
+	.Tittle {
+	font-family: 'Lobster', cursive,bold;
+	text-align:center;
+	color: #000; 
+	font-size: 3.7pc;
+	margin-top:0px;  
+	}
+	
+	.Sub-Tittle {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 2.1pc;
+	}
+
+
+  .Tittle-section  {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 1.9pc;
+	margin-top:50px;
+	}
+
+    .life-section {
+	width: auto;
+   	height: 800px;
+	background-color: #CC9;
+	position:relative;
+	}
+	
+	.box-skills, welcome-section{
+   	width: 460px;
+   	height: 300px;
+   	border:1px;
+   	background-color: #CCC;
+	margin-top:40;
+	margin-left: 40;
+	margin-bottom:20;
+   	border:2px solid black;
+	float:left;
+	}
+	
+	
+   p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+   .skills-list {
+	font-family: 'Roboto slab', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: #000;
+	font-weight: bold;	
+	}
+	
+	ul { 
+	display:table; margin:0 auto;
+	margin-top:20;}
+	
+	.quote {
+	font-family: 'Lobster', cursive,bold;
+	font-size: 1.8pc;
+	text-align: center;
+	}
+
+	
+	a:hover {
+    color: #606; 
+	}
+	
+	.box-contact {
+   	width: 320px;
+   	height: 300px;
+   	border:1px;
+	margin-top: 100;
+   	margin-left: 250;
+   	background-color: #CCC;
+   	border:2px solid black;
+	} 
+	
+
+  #form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:50px;
+    width: 300px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:30px;
+    margin-left: -260px;
+  }
+	
+	 .contact-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 13px;
+    line-height: 13px;
+    background-color: #fbfbfb;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 1px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+  }
+	
+	 textarea {
+      width: 100%;
+      height: 70px;
+      line-height: 100%;
+      resize:vertical;
+  }
+  
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+  background-color:white;
+  }
+
+
+  #button-send{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 30%;
+    border: #fbfbfb solid 1px;
+    cursor:pointer;
+    background-color: #939;
+    color:white;
+    font-size:13px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:-8px;
+	margin-left:100px;
+	text-align:center;
+    font-weight:700;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 7px 0px rgba(128,0,128,1);
+	-moz-box-shadow: 0px 7px 0px rgba (128,0,128,1);
+	box-shadow: 0px 7px 0px rgba (128,0,128,1);
+	}
+
+   #button-send:hover {
+    margin-top: 0.75px;
+	background-color: #969;
+	}
+	
+	.social {
+	width: 50;
+	height:auto;
+    margin-left:50px;
+	margin-top: 0px;
+	}
+	
+	.bot-p {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align: start;
+	font-size: 1.6pc;
+	margin-top:20px;
+	}
+	
+}
+
+/* Large Devices, Wide screens */
+@media only screen and (min-width : 1200px)
+{
+	 img {
+ 	 width: 300px;
+  	 height: auto;
+   	 margin-top:60px; 
+  	 margin-left:100px; 
+	 }
+	
+	.Tittle {
+	font-family: 'Lobster', cursive,bold;
+	text-align:center;
+	color: #000; 
+	font-size: 4.2pc;
+	margin-top:0;  
+	}
+	
+	.Sub-Tittle {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 2.8pc;
+	}
+	
+	.Tittle-section  {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align:center;
+	font-size: 2.4pc;
+	margin-top:50px;
+	}
+
+    .life-section {
+	width: auto;
+   	height: 900px;
+	background-color: #CC9;
+	position:relative;
+	margin-top: 40;
+	}
+	
+	.box-skills, welcome-section{
+   	width: 500px;
+   	height: 340px;
+   	border:1px;
+   	background-color: #CCC;
+	margin-top:40;
+	margin-left: 40;
+	margin-bottom:20;
+   	border:2px solid black;
+	float:left;
+	}
+	
+	
+   p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+   .skills-list {
+	font-family: 'Roboto slab', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	color: #000;
+	font-weight: bold;	
+	}
+	
+	ul { 
+	display:table; margin:0 auto;
+	margin-top:20;}
+	
+	.quote {
+	font-family: 'Lobster', cursive,bold;
+	font-size: 2.2pc;
+	text-align: center;
+	}
+	
+	a:hover {
+    color: #606; 
+	}
+	
+	.box-contact {
+   	width: 400px;
+   	height: 350px;
+   	border:1px;
+	margin-top: 100;
+   	margin-left: 500;
+   	background-color: #CCC;
+   	border:2px solid black;
+	} 
+
+
+  #form-div {
+    background-color:rgba(72,72,72,0.4);
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: relative;
+    margin-top:30px;
+    margin-left: -260px;
+  }
+	
+	 .contact-input {
+    color:#3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #fbfbfb;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 8px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+  }
+	
+	 textarea {
+      width: 100%;
+      height: 80px;
+      line-height: 100%;
+      resize:vertical;
+  }
+  
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+  background-color:white;
+  }
+  
+
+  #button-send{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 40%;
+    border: #fbfbfb solid 1px;
+    cursor:pointer;
+    background-color: #939;
+    color:white;
+    font-size:16px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-top:-8px;
+	margin-left:100px;
+	text-align:center;
+    font-weight:700;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 7px 0px rgba(128,0,128,1);
+	-moz-box-shadow: 0px 7px 0px rgba (128,0,128,1);
+	box-shadow: 0px 7px 0px rgba (128,0,128,1);
+}
+  	
+   #button-send:hover {
+    margin-top: 0.75px;
+	background-color: #969;
+	}
+	
+	.social {
+	width: 60;
+	height:auto;
+    margin-left:50px;
+	margin-top: 0px;
+	}
+	
+	
+	.bot-p {
+	font-family: 'Roboto Slab', cursive, bold;
+	text-align: start;
+	font-size: 1.9pc;
+	margin-top:20px;
+	}
+	
+
+}
